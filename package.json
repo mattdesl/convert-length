@@ -10,11 +10,11 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "defined": "^1.0.0",
-    "parse-unit": "^1.0.1",
-    "tape": "^4.8.0"
+    "defined": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
   "scripts": {
     "test": "node test.js"
   },

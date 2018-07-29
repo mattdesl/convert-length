@@ -31,11 +31,6 @@ var conversions = {
   ft: {
     system: 'imperial',
     factor: 12
-  },
-  // screen
-  px: {
-    system: 'screen',
-    factor: 1
   }
 };
 
@@ -100,7 +95,7 @@ function convertDistance (value, fromUnit, toUnit, opts) {
     anchor *= anchors[fromUnitData.system].ratio;
   }
 
-  let result = anchor / toUnitData.factor * toFactor;
+  var result = anchor / toUnitData.factor * toFactor;
   if (isToPixel && roundPixel) {
     result = Math.round(result);
   } else if (typeof precision === 'number' && isFinite(precision)) {
