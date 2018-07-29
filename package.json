@@ -1,6 +1,6 @@
 {
   "name": "convert-length",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a distance unit (e.g. m) to another (e.g. cm)",
   "main": "./convert-length.js",
   "license": "MIT",
